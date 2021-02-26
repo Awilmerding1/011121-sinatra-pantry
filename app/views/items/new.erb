@@ -1,5 +1,9 @@
 <h1>New Item</h1>
 
+<%flash[:message] && flash[:message].each do |m| %>
+  <li><%=m%></li>
+<%end%>
+
 
 <form action="/items" method="post">
   <label>Item Name: </label>
