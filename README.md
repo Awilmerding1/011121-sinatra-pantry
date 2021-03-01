@@ -8,8 +8,10 @@
 2. Set up the Sinatra piece of the application
   - Set up ApplicationController including all necessary configurations
   - Set up controllers for each model
+  - Set up view folders/files for each model
   - Set up user authentication
   - Set up all RESTful routes
+  - Implement full CRUD functionality
   - Protect your patch/delete routes
   - Prevent a user from seeing the edit form or delete button for an item that is not theirs
   - Keep logic out of views/controllers and DRY up your code by defining helper methods
